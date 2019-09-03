@@ -15,7 +15,6 @@ class StudentsAdapter(val items : List<Student>, val context: Context) : Recycle
     }
 
     override fun getItemCount(): Int {
-
         return items.size
     }
 
